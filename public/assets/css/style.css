@@ -2,6 +2,7 @@ li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+    /* width: 45%; */
   }
   
   .label {
@@ -20,6 +21,12 @@ li {
     font-size: 18px;
     /* font-weight: bold; */
   }
-h1,h2{
+h1, h2{
     color: orange;
+}
+/* h2{
+  color: lightgray;
+} */
+#order{
+  color:black;
 }

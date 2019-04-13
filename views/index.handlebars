@@ -50,7 +50,7 @@
             {{/each}}
         </ul>
 
-        <h2>Enter a burger you'd like to devour and click Order button</h2>
+        <h2 id="order">Enter a burger below</h2>
         <form class="create-form">
 
             <div class="form-group">
@@ -58,12 +58,12 @@
                 <input type="text" id="burg" name="burger_name">
             </div>
             <div class="form-group">
-                <label for="devoured" >DEVOURED?</label><br>
+                <label for="devoured" >HUNGRY?</label><br>
                 <input type="radio" name ="devoured" value="1" checked>  FULL NOW, SAVE FOR LATER<br>
                 <input type="radio" name ="devoured" value="0">  LET'S EAT!
             </div>
 
-            <button class="btn btn-warning btn-lg" type="submit">Please your order</button>
+            <button class="btn btn-warning btn-lg" type="submit">Place your order</button>
             <br>
             <br>
         </form>
